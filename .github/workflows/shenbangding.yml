@@ -3,8 +3,8 @@ name: shenbangding
 on:
   workflow_dispatch:
   schedule:
-    - cron: '36 0/6 * * *'
-jobs:  # 21000
+    - cron: '13 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,10 +12,18 @@ jobs:  # 21000
       - uses: actions/checkout@v4
       - name: shenbangding
         env:
-          a1784: ${{ secrets.a1784 }}
+          vdv68945: ${{ secrets.vdv68945 }}
         run: |
-          echo $a1784 | jq -r .cafhb983 | /bin/bash
-          echo $slzgm99811 | jq -r .avfms3 | /bin/bash
-          echo $u0537 | jq -r .fip08 | /bin/bash
-          echo $ju4 | jq -r .nd92 | /bin/bash
+          echo $vdv68945 | jq -r .g8 | /bin/bash
+          echo $q5 | jq -r .odgc567 | /bin/bash
+          echo $ipgkh8 | jq -r .ufb88860 | /bin/bash
+          echo $i061 | jq -r .o70 | /bin/bash
+          echo $irsf4561 | jq -r .jl17502 | /bin/bash
+          echo $quy3069 | jq -r .smke80474 | /bin/bash
+          echo $cmat2 | jq -r .q6882 | /bin/bash
+          echo $kxw56494 | jq -r .dgsfd11 | /bin/bash
+          echo $ry7769 | jq -r .ttos5627 | /bin/bash
+          echo $xnia8303 | jq -r .xxjaz2901 | /bin/bash
+          echo $bj4506 | jq -r .v338 | /bin/bash
+          echo $ig8 | jq -r .kf5 | /bin/bash
 
